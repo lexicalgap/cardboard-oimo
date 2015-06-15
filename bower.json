@@ -1,0 +1,12 @@
+{
+  "name": "cardboard-3d-sound",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "gsap": "~1.17.0",
+    "threejs": "https://raw.githubusercontent.com/mrdoob/three.js/master/build/three.min.js",
+    "stats.js": "*",
+    "dat.gui": "*",
+    "devicejs": "~0.2.7"
+  }
+}
