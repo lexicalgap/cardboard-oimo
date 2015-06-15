@@ -12,6 +12,11 @@ How to run:
 	$ npm install
 	$ bower install
 	$ gulp serve
+	
+To run on cardboard mode, add to the url:
+	
+	?cardboard=1
+
 
 [bower]: http://bower.io
 [gulp]: http://gulpjs.com
