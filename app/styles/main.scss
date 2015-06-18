@@ -4,7 +4,8 @@
 body {
   margin: 0px;
   overflow: hidden;
-  }
+}
+
 #mycanvas {
   background-color: white;
   position: absolute;
@@ -12,4 +13,15 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 0;
+}
+
+#cboard {
+  cursor: pointer;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 75px;
+  height: 75px;
+  z-index: 1;
 }

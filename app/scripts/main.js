@@ -84,6 +84,14 @@ function init() {
 
   setupStats();
 
+  $('#cboard').click(function(e) {
+    if(!CARDBOARD) {
+      document.location.href = document.location.pathname + '?cardboard=' + 1;
+    }else {
+      document.location.href = document.location.pathname;
+    }
+  })
+
   if (device.mobile() || device.tablet()) {
     MAX_SPHERES = 150;
   }
