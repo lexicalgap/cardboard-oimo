@@ -31,7 +31,7 @@ function setupStats() {
   var st = document.createElement('div');
   stats = new Stats();
   stats.domElement.style.position = 'absolute';
-  stats.domElement.style.top = '0px';
+  stats.domElement.style.bottom = '0px';
 
   document.body.appendChild(st);
   st.appendChild(stats.domElement);
@@ -84,13 +84,13 @@ function init() {
 
   setupStats();
 
-  $('#cboard').click(function(e) {
+  $('#cboard').click(function() {
     if(!CARDBOARD) {
       document.location.href = document.location.pathname + '?cardboard=' + 1;
     }else {
       document.location.href = document.location.pathname;
     }
-  })
+  });
 
   if (device.mobile() || device.tablet()) {
     MAX_SPHERES = 150;

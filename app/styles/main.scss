@@ -4,14 +4,17 @@
 body {
   margin: 0px;
   overflow: hidden;
+  background-color: black;
 }
 
 #mycanvas {
-  background-color: white;
+  background-color: black;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
+  width: '100%';
+  height: '100%';
   bottom: 0;
   z-index: 0;
 }
@@ -20,7 +23,7 @@ body {
   cursor: pointer;
   position: absolute;
   right: 8px;
-  bottom: 8px;
+  top: 8px;
   width: 75px;
   height: 75px;
   z-index: 1;
