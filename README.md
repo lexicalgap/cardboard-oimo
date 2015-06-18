@@ -2,7 +2,7 @@
 Google cardboard experiment using [Three.js][threejs] and [Oimo.js][oimo]
 ![](http://puga.com.br/play/cardboard-oimo/images/cardboard-oimo.png)
 
-#### [Live Demo](http://puga.com.br/play/cardboard-oimo/)
+#### [Live Demo](http://lexicalgap.com.au/playground/cardboard-oimo/)
 ---
 
 Make sure you have [Yo][yo], [Bower][bower] and [Gulp][gulp] installed.
