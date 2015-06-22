@@ -1,6 +1,6 @@
 # cardboard-oimo
 Google cardboard experiment using [Three.js][threejs] and [Oimo.js][oimo]
-![](http://puga.com.br/play/cardboard-oimo/images/cardboard-oimo.png)
+![](./screenshot.jpg)
 
 #### [Live Demo](http://lexicalgap.com.au/playground/cardboard-oimo/)
 ---
